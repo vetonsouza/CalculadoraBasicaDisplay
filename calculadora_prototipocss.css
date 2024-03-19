@@ -1,0 +1,32 @@
+.calculator {
+    width: 200px;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid #e9e1e1;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.display {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%; /* torna o botão redondo */
+    border: none; /* remove a borda */
+    background-color: #cccccc; /* cor de fundo */
+    transition: border 0.3s ease; /* animação de transição para a borda */
+}
+
+.equal {
+    grid-column: span 2;
+}
